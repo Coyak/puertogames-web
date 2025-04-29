@@ -191,12 +191,12 @@ h1{
     }
 
     .categoria-imagen {
-        max-width: 280px;
+        max-width: 400px;
         width: 90%;
     }
 
     .galeria-imagen {
-        max-width: 200px;
+        max-width: 300px;
         width: 90%;
     }
     .cta {
