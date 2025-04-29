@@ -1,8 +1,7 @@
 /* Estilo general */
 
 :root {
-    --color-fondo: background: #34113F;
-    background: linear-gradient(90deg,rgba(52, 17, 63, 1) 0%, rgba(4, 4, 20, 1) 50%, rgba(3, 87, 26, 1) 100%);
+    --color-fondo: linear-gradient(90deg, rgba(52, 17, 63, 1) 0%, rgba(4, 4, 20, 1) 50%, rgba(3, 87, 26, 1) 100%);
     --color-texto: white;
     --color-pricipal: blueviolet;
     --color-secundario: #f0c1ff;
@@ -12,8 +11,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    background-color: var(--color-fondo);
     color: var(--color-texto);
+    background-color: #34113F;
+    background-image: var(--color-fondo);
+    color: var(--color-texto)
 }
 
 /* Estilo nav */
@@ -78,7 +79,6 @@ h1{
     align-items: center; /* centra horizontalmente */
     padding: 20px;
     background-color: var(--color-pricipal);
-    border-radius: px;
 }
 .categoria-lista{
     display: flex;
@@ -115,7 +115,6 @@ h1{
     align-items: center; /* centra horizontalmente */
     padding: 20px;
     background-color: var(--color-secundario);
-    border-radius: px;
 }
 
 .galeria-lista{
@@ -139,7 +138,7 @@ h1{
 .galeria-imagen:hover {
     transform: scale(1.05); /* Hace que la imagen se agrande un 5% al pasar el ratón */
     box-shadow: black 0px 0px 15px; /* Opcional: Aumenta ligeramente la sombra */
-     cursor: pointer; /* Cambia el cursor a una manita para indicar que es interactivo */
+    cursor: pointer; /* Cambia el cursor a una manita para indicar que es interactivo */
 }
 
 /*CTA*/
